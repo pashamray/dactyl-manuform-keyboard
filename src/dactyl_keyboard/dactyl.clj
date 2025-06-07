@@ -703,11 +703,12 @@
                     (difference (union case-walls 
                                        screw-insert-outers 
                                        ; teensy-holder
-                                       usb-holder)
-                                rj9-space 
-                                usb-holder-hole
+                                       ; usb-holder
+                                       )
+                                ;rj9-space 
+                                ;usb-holder-hole
                                 (translate [0 0 -0.01] screw-insert-holes) )
-                    rj9-holder
+                    ;rj9-holder
                     ; wire-posts
                     ; thumbcaps
                     ; caps
@@ -732,8 +733,8 @@
                     thumbcaps
                     caps
                     ; teensy-holder
-                    rj9-holder
-                    usb-holder-hole
+                    ;rj9-holder
+                    ; usb-holder-hole
                     ; usb-holder-hole
                     ; ; teensy-holder-hole
                     ;             screw-insert-outers 
